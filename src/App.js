@@ -18,7 +18,6 @@ function App() {
     const fetchWeather = async () => {
       const message = query.q ? query.q : "current location.";
 
-
       toast.info("Fetching weather for " + message);
 
       await getFormattedWeatherData({ ...query, units }).then((data) => {
