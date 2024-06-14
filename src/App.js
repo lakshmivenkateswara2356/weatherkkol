@@ -33,7 +33,6 @@ function App() {
   }, [query, units]);
 
 
-  
   const formatBackground = () => {
     if (!weather) return "from-cyan-700 to-blue-700";
     const threshold = units === "metric" ? 20 : 60;
