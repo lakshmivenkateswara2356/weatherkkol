@@ -44,7 +44,6 @@ const formatCurrentWeather = (data) => {
   };
 };
 
-
 const formatForecastWeather = (data) => {
   let { timezone, daily, hourly } = data;
   daily = daily.slice(1, 6).map((d) => {
