@@ -54,6 +54,8 @@ const formatForecastWeather = (data) => {
     };
   });
 
+
+  
   hourly = hourly.slice(1, 6).map((d) => {
     return {
       title: formatToLocalTime(d.dt, timezone, "hh:mm a"),
