@@ -62,6 +62,8 @@ const formatForecastWeather = (data) => {
     };
   });
 
+
+  
   return { timezone, daily, hourly };
 };
 
