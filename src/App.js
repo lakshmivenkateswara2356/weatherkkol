@@ -14,6 +14,8 @@ function App() {
   const [units, setUnits] = useState("metric");
   const [weather, setWeather] = useState(null);
 
+  
+
   useEffect(() => {
     const fetchWeather = async () => {
       const message = query.q ? query.q : "current location.";
